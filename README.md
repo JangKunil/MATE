@@ -1,1 +1,2 @@
-# eunboard
+# Mate
+# 카풀 서비스 어플
