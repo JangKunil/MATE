@@ -23,7 +23,7 @@
 #    spring.redis.port=6379
 
 server:
-  port: 8090
+  port: 8080
   tomcat:
     max-http-form-post-size: 25MB
 
