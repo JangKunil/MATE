@@ -54,7 +54,7 @@ public class ReportController {
 
         reportBoardService.createReportBoard(requestDTO);
 
-        return "report save ok";
+        return "ReportBoard save ok";
     }
 
     @GetMapping("/QuestionBoard")
@@ -78,6 +78,6 @@ public class ReportController {
 
         questionBoardService.createQuestionBoard(requestDTO);
 
-        return "save ok";
+        return "QuestionBoard save ok";
     }
 }
