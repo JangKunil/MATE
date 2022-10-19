@@ -50,6 +50,7 @@ public class Ticket extends BaseEntity {
     @Column(name = "ticket_price", columnDefinition = "TINYINT(1)")
     private String ticketPrice;
 
+    /** 티켓 상태*/
     @Enumerated(EnumType.STRING)
     @Column(name = "status", length = 8)
     private TicketStatus status;
