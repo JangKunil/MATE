@@ -59,11 +59,11 @@ public class Ticket extends BaseEntity {
     @Column(name = "recruit_person", length = 2)
     private Integer recruitPerson;
 
-    /** 출발지 */
+    /** 출발지 명*/
     @Column(name = "start_area", length = 50)
     private String startArea;
 
-    /** 도착지 */
+    /** 도착지 명*/
     @Column(name = "end_area", length = 50)
     private String endArea;
 
